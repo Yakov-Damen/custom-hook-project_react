@@ -3,6 +3,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import useClickCount from "./custom-hooks/useClickCount";
 import DivEntry from "./DivEntry";
+import LocalStorage from "./LocalStorage";
 
 function App() {
   const [countBlue, handleBlueClick] = useClickCount();
@@ -31,6 +32,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
+      <LocalStorage/>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
